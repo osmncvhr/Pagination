@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Animated_Button">
+    <meta name="keywords" content="HTML,CSS,js">
+    <meta name="author" content="Osman Cevahir">
+    <link rel="shortcut icon" href="my_logo.png" sizes="300x300">
+    <title>Animated Button</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="pagination">
+            <button class="btn_left" onclick="backBtn()"><img src="arrow-left.svg" alt="">geri</button>
+            <ul>
+                <li class="link active" value="1" onclick="activeLink()">1</li>
+                <li class="link" value="2" onclick="activeLink()">2</li>
+                <li class="link" value="3" onclick="activeLink()">3</li>
+                <li class="link" value="4" onclick="activeLink()">4</li>
+                <li class="link" value="5" onclick="activeLink()">5</li>
+                <li class="link" value="6" onclick="activeLink()">6</li>
+            </ul>
+            <button class="btn_right" onclick="nextBtn()">ileri<img src="arrow-left.svg"></button>
+        </div>
+    </div>
+
+
+
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
